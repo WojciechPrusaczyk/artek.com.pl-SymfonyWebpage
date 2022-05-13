@@ -72,6 +72,7 @@ class ComposerStaticInit7c695b1e37165045a6edbfa229bd5acb
         ),
         'A' => 
         array (
+            'App\\Tests\\' => 10,
             'App\\' => 4,
         ),
     );
@@ -240,6 +241,10 @@ class ComposerStaticInit7c695b1e37165045a6edbfa229bd5acb
         'Doctrine\\Common\\Annotations\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
+        'App\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'App\\' => 
         array (
