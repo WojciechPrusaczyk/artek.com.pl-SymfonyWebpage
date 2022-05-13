@@ -1,4 +1,12 @@
 {
+    "authors": [
+        {
+            "name": "Wojciech Prusaczyk",
+            "email": "woj.prusaczyk@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "name": "Wojciech/ArtekWebpage",
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
