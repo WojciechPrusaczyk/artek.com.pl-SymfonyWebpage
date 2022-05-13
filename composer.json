@@ -1,4 +1,6 @@
 {
+    "name": "wojtek/artekwebpage",
+    "description": "opis",
     "authors": [
         {
             "name": "Wojciech Prusaczyk",
@@ -6,7 +8,6 @@
             "role": "Developer"
         }
     ],
-    "name": "Wojciech/ArtekWebpage",
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
