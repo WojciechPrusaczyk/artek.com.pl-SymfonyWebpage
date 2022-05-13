@@ -1,0 +1,16 @@
+controllers:
+    resource: ../src/Controller/
+    type: annotation
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+main_page:
+    path: /
+    controller: 'App\Controller\MainPageController::index'
+realizations:
+    path: /realizacje
+    controller: 'App\Controller\RealizationsController::realizations'
+contact:
+    path: /kontakt
+    controller: 'App\Controller\ContactController::contact'

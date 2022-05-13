@@ -1,0 +1,240 @@
+# Webalizer V2.23-08 Incremental Data - 05/05/2022 22:53:51
+2022 5 5 22 53 51
+97 89 8 21 9 8 256345 71 12 0 0 0
+8 25 26 5 5
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+97 89 256345 8 71 12 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 2 1182 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+21 21 11145 18 0 0
+10 10 5900 10 0 0
+2 2 1172 2 0 0
+8 8 4688 8 0 0
+3 3 1778 3 0 0
+26 26 14683 22 0 0
+25 17 215797 7 0 0
+0 0 0 0 0 0
+0
+0
+0
+89
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+6
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/realizacj
+0 2 0 1190 0 0 0 0
+/images/phone.png
+1 1 0 2051 0 0 0 0
+/images/city.png
+1 1 0 2274 0 0 0 0
+/images/foto.png
+1 1 0 9194 0 0 0 0
+/js/jquery.js
+0 1 0 38901 0 0 0 0
+/images/messege-send.png
+1 1 0 6861 0 0 0 0
+/images/shadow-bottom.png
+1 1 0 6300 0 0 0 0
+/favicon.ico
+0 7 0 2388 0 0 0 0
+/images/content-backgraund.png
+1 1 0 18407 0 0 0 0
+/realizacje
+0 2 0 1192 0 0 0 0
+/images/background.png
+1 1 0 1862 0 0 0 0
+/images/domena.png
+1 1 0 3666 0 0 0 0
+/images/facebook.png
+1 1 0 2603 0 0 0 0
+/icons/bg_body.jpg
+1 2 0 62907 0 0 0 0
+/images/border-content.png
+1 1 0 1357 0 0 0 0
+/r
+0 2 0 1174 0 0 0 0
+/
+0 58 0 34605 11 5 0 0
+/css/main.css
+0 1 0 1706 0 0 0 0
+/style.php
+0 1 0 606 1 0 0 0
+/robots.txt
+0 1 0 596 0 0 0 0
+/icons/403.gif
+1 2 0 51357 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+msnbot-207-46-13-157.search.msn.com
+0 1 1 586 1 1651757864 0 0
+/
+scanner-06.ch1.censys-scanner.com
+0 1 0 858 1 1651790914 0 0
+/
+5-226-76-194.static.ip.netia.com.pl
+0 6 6 3538 1 1651786493 0 0
+/
+msnbot-157-55-39-17.search.msn.com
+0 1 1 596 0 0 0 0
+-
+188.146.97.169.nat.umts.dynamic.t-mobile.pl
+0 3 3 1769 1 1651786701 0 0
+/
+aeaj171.neoplus.adsl.tpnet.pl
+0 62 55 235460 3 1651791231 0 0
+/
+ip-68-178-246-153.ip.secureserver.net
+0 1 1 606 1 1651782285 0 0
+/style.php
+public-gprs650222.centertel.pl
+0 22 22 12932 4 1651781532 0 0
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+msnbot-207-46-13-157.search.msn.com
+0 1 1 586 1 1651757864 0 0
+/
+scanner-06.ch1.censys-scanner.com
+0 1 0 858 1 1651790914 0 0
+/
+5-226-76-194.static.ip.netia.com.pl
+0 6 6 3538 1 1651786493 0 0
+/
+msnbot-157-55-39-17.search.msn.com
+0 1 1 596 0 0 0 0
+-
+188.146.97.169.nat.umts.dynamic.t-mobile.pl
+0 3 3 1769 1 1651786701 0 0
+/
+aeaj171.neoplus.adsl.tpnet.pl
+0 62 55 235460 3 1651791231 0 0
+/
+ip-68-178-246-153.ip.secureserver.net
+0 1 1 606 1 1651782285 0 0
+/style.php
+public-gprs650222.centertel.pl
+0 22 22 12932 4 1651781532 0 0
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.artek.com.pl/r
+0 1
+https://l.messenger.com/
+0 3
+http://www.artek.com.pl/
+0 41
+- (Direct Request)
+1 36
+http://www.artek.com.pl/css/main.css
+0 10
+http://m.facebook.com/
+0 1
+http://www.artek.com.pl/realizacj
+0 1
+http://www.artek.com.pl/realizacje
+0 1
+http://artek.com.pl/
+0 3
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 9; Redmi Note 8T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36
+0 22
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 1
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 2
+Mozilla/5.0 (Linux; Android 10; POT-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+0 1
+Mozilla/5.0 (Linux; Android 11; SM-A505FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36
+0 3
+Netscape/Mozilla
+2 97
+Mozilla/5.0 (Linux; Android 10; POT-LX1 Build/HUAWEIPOT-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/10
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+0 62
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Trebuchet MS';
+  font-size: 105%;
+}
+
+body {
+  background-color: #f0f8ff;
+  position: relative;
+}
+
+body nav {
+  background-color: #f3f3f3;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+body main {
+  position: relative;
+  float: left;
+  padding: 3%;
+  padding-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  text-align: center;
+}
+
+body main form input[type="submit"], body main form input[type="button"] {
+  background-color: #e8ffee;
+  color: #50886a;
+  font-weight: bold;
+}
+
+body main form textarea {
+  resize: none;
+  border: none;
+}
+
+body main form textarea:focus {
+  border: none;
+}
+
+body main p {
+  display: block;
+}
+
+body main image {
+  pointer-events: none;
+}
+
+body footer {
+  background-color: #f3f3f3;
+  float: left;
+}
+
+body footer .d0 {
+  color: #575757;
+}
+
+body footer .d0 li {
+  list-style: none;
+}
+
+body footer .d0 li a {
+  color: #222222;
+  text-decoration: none;
+  letter-spacing: 0.7px;
+}
+
+body footer .d0 li a:hover {
+  color: #405DE6;
+}
+
+body footer .d1 {
+  color: #575757;
+}
+
+body footer .d1 .a2 {
+  background: -webkit-linear-gradient(#405DE6, #5851DB, #C13584, #FD1D1D, #F56040, #FFDC80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body footer .d2 {
+  background-color: #d1d1d1;
+  color: #4d4d4d;
+}
+
+.imageRow {
+  letter-spacing: 0.1em;
+  -webkit-transition: letter-spacing 2s;
+}
+
+.imageRow:hover {
+  background-color: #f1f1f1;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.imageRow:hover h2 {
+  letter-spacing: 0.11em;
+  -webkit-transition: letter-spacing 2s;
+  transition: letter-spacing 2s;
+}
+
+.headerButton a {
+  text-decoration: none;
+  color: #4e381e;
+}
+
+.headerButton a:hover {
+  background-color: #e9e9e9;
+  color: #4e381e;
+  -webkit-animation-name: backgroundColorPalette;
+          animation-name: backgroundColorPalette;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
+}
+
+.test {
+  background-color: #4d4d4d;
+  color: #0c63e4;
+}
+
+.inputText:focus {
+  width: 33%;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: none;
+}
+
+.formText {
+  background-color: #0c63e4;
+}
+
+.zdjecieGlowne {
+  width: 100%;
+  max-height: 200px;
+}
+
+.zdjecieGlowneTekst {
+  background-image: url("../data/images/zadaszenie1.jpg");
+  font-weight: bold;
+  font-size: 3rem;
+  color: #f0f8ff;
+  text-shadow: 3px 3px #222222;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@-webkit-keyframes backgroundColorPalette {
+  0% {
+    color: #627461;
+    background-color: #cde4cc;
+  }
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    color: #627461;
+    background-color: #cde4cc;
+  }
+}
+
+@-webkit-keyframes lettersAnimation {
+  0% {
+    letter-spacing: 0.1em;
+  }
+  100% {
+    letter-spacing: 0.2em;
+  }
+}
+
+@keyframes lettersAnimation {
+  0% {
+    letter-spacing: 0.1em;
+  }
+  100% {
+    letter-spacing: 0.2em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
