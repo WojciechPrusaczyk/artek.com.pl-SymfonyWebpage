@@ -4,5 +4,4 @@
 
 return array (
   'APP_ENV' => 'prod',
-  'APP_SECRET' => '13a15513cec0fc8dede76f98dc13fad3',
 );

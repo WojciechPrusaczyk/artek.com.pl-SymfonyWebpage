@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '4240eebb031df98f04a0ef65d552853254f2723c',
+        'reference' => '79ebef5b7b60653a67ac62177da98618fe8d7e19',
         'name' => 'wojtek/artekwebpage',
         'dev' => true,
     ),
@@ -93,6 +93,15 @@
             'provided' => array(
                 0 => '1.0|2.0|3.0',
             ),
+        ),
+        'symfony/apache-pack' => array(
+            'pretty_version' => 'v1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'symfony-pack',
+            'install_path' => __DIR__ . '/../symfony/apache-pack',
+            'aliases' => array(),
+            'reference' => '3aa5818d73ad2551281fc58a75afd9ca82622e6c',
+            'dev_requirement' => false,
         ),
         'symfony/asset' => array(
             'pretty_version' => 'v6.0.7',
@@ -469,7 +478,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '4240eebb031df98f04a0ef65d552853254f2723c',
+            'reference' => '79ebef5b7b60653a67ac62177da98618fe8d7e19',
             'dev_requirement' => false,
         ),
     ),

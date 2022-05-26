@@ -42,18 +42,20 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
 
 <head>
     <title>Drewno Artek</title>
+    <meta name=\"description\" content=\"Tworzymy najlepszej jakości wyroby drewniane w okolicy! Zapraszamy do kontaku z nami. Adres: Nowe Krąplewice 19 86-130. Kontakt: (+48)791-271-060.\">
 
     <link rel=\"stylesheet\" href=\"";
-        // line 7
+        // line 8
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/app.css"), "html", null, true);
         echo "\">
     <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'> 
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel=\"icon\" type=\"image/x-icon\" href=\"";
-        // line 10
+        // line 11
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("logo/logo.png"), "html", null, true);
         echo "\">
     <meta charset=\"utf-8\">
+\t<meta name=\"google-site-verification\" content=\"4tNYNgBSglbHdi6VHHmjfnTKV9CbXENbJlgKA1BZJSA\" />
     <script>
         function onFocusText(ft, text){
             if(ft.value === text){
@@ -68,21 +70,21 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             }
         }
     </script>
-    
+
 </head>
 <body>
     <nav class=\"row m-0\">
         <div class=\"row fw-bold m-0\">
             <div class=\"col-md-12 col-xl-3\">
                 <img src=\"";
-        // line 32
+        // line 34
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("logo/logoBezTla.png"), "html", null, true);
         echo "\" alt=\"Logo\" class=\"d-block p-0 mx-auto\" style=\"height: 170px;\">
             </div>
             <div class=\"col-sm-12 col-md-4 col-xl-3 pt-3\">
                 <div class=\"pt-4 headerButton mx-auto\">
                     <a href=\"";
-        // line 36
+        // line 38
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("main_page");
         echo "\" class=\"d-block text-center p-4\">
                         Strona główna
@@ -92,7 +94,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             <div class=\"col-sm-12 col-md-4 col-xl-3 pt-3\">
                 <div class=\"pt-4 headerButton\">
                     <a href=\"";
-        // line 43
+        // line 45
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("realizations");
         echo "\" class=\"d-block text-center p-4 mx-auto\">
                         Realizacje
@@ -102,7 +104,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             <div class=\"col-sm-12 col-md-4 col-xl-3 pt-3 pb-3\">
                 <div class=\"pt-4 headerButton mx-auto\">
                     <a href=\"";
-        // line 50
+        // line 52
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contact");
         echo "\" class=\"d-block text-center p-4\">
                         Kontakt
@@ -113,7 +115,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
     </nav>
     <!--Zdjęcie główne-->
         <div class=\"text-center zdjecieGlowneTekst w-100\" style=\"background-image: url(";
-        // line 58
+        // line 60
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/zadaszenie1.jpg"), "html", null, true);
         echo ");\">
             <p class=\"h1 fw-bold lh-sm font-monospace\">WYROBY</p>
@@ -132,7 +134,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             </div>
             <div class=\"col-md-6 col-sm-12 text-center p-2 m-0\">
                 <img src=\"";
-        // line 74
+        // line 76
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/zadaszenie2.jpg"), "html", null, true);
         echo "\" alt=\"Zdjęcie Prezentacyjne\" class=\"rounded mx-auto w-100\">
             </div>
@@ -155,7 +157,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             </div>
             <div class=\"col-md-6 col-sm-12 text-center p-2 m-0\">
                 <img src=\"";
-        // line 94
+        // line 96
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/garaz.jpg"), "html", null, true);
         echo "\" alt=\"Zdjęcie Prezentacyjne\" class=\"rounded mx-auto w-100\">
             </div>
@@ -168,7 +170,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             </div>
             <div class=\"col-md-6 col-sm-12 text-center p-2 m-0\">
                 <img src=\"";
-        // line 104
+        // line 106
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/lozko.jpg"), "html", null, true);
         echo "\" alt=\"Zdjęcie Prezentacyjne\" style=\"max-width: 400px;\" class=\"rounded mx-auto w-100\">
             </div>
@@ -211,19 +213,19 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             <div class=\"row pt-2 m-0\">
                 <li class=\"pt-3 col-md-3 col-sm-6\">
                     <a href=\"";
-        // line 144
+        // line 146
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("main_page");
         echo "\">Strona główna</a>
                 </li>
                 <li class=\"pt-3 col-md-3 col-sm-6\">
                     <a href=\"";
-        // line 147
+        // line 149
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("realizations");
         echo "\">Realizacje</a>
                 </li>
                 <li class=\"pt-3 col-md-3 col-sm-6\">
                     <a href=\"";
-        // line 150
+        // line 152
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contact");
         echo "\">Kontakt</a>
                 </li>
@@ -295,7 +297,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
 
     public function getDebugInfo()
     {
-        return array (  227 => 150,  221 => 147,  215 => 144,  172 => 104,  159 => 94,  136 => 74,  117 => 58,  106 => 50,  96 => 43,  86 => 36,  79 => 32,  54 => 10,  48 => 7,  40 => 1,);
+        return array (  229 => 152,  223 => 149,  217 => 146,  174 => 106,  161 => 96,  138 => 76,  119 => 60,  108 => 52,  98 => 45,  88 => 38,  81 => 34,  55 => 11,  49 => 8,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -305,12 +307,14 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
 
 <head>
     <title>Drewno Artek</title>
+    <meta name=\"description\" content=\"Tworzymy najlepszej jakości wyroby drewniane w okolicy! Zapraszamy do kontaku z nami. Adres: Nowe Krąplewice 19 86-130. Kontakt: (+48)791-271-060.\">
 
     <link rel=\"stylesheet\" href=\"{{ asset('build/app.css') }}\">
     <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'> 
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel=\"icon\" type=\"image/x-icon\" href=\"{{ asset('logo/logo.png') }}\">
     <meta charset=\"utf-8\">
+\t<meta name=\"google-site-verification\" content=\"4tNYNgBSglbHdi6VHHmjfnTKV9CbXENbJlgKA1BZJSA\" />
     <script>
         function onFocusText(ft, text){
             if(ft.value === text){
@@ -325,7 +329,7 @@ class __TwigTemplate_0d549fc5f753cfa660e13fa711144cfabc6464c4afe56bec969bdf22957
             }
         }
     </script>
-    
+
 </head>
 <body>
     <nav class=\"row m-0\">

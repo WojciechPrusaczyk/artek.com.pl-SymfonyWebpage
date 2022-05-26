@@ -42,15 +42,16 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
 
 <head>
     <title>Drewno Artek</title>
+    <meta name=\"description\" content=\"Tworzymy najlepszej jakości wyroby drewniane w okolicy! Zapraszamy do kontaku z nami. Adres: Nowe Krąplewice 19 86-130. Kontakt: (+48)791-271-060.\">
 
     <link rel=\"stylesheet\" href=\"";
-        // line 7
+        // line 8
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/app.css"), "html", null, true);
         echo "\">
     <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel=\"icon\" type=\"image/x-icon\" href=\"";
-        // line 10
+        // line 11
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("logo/logo.png"), "html", null, true);
         echo "\">
     <meta charset=\"utf-8\">
@@ -68,21 +69,21 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
             }
         }
     </script>
-    
+
 </head>
 <body>
     <nav class=\"row m-0\">
         <div class=\"row fw-bold m-0\">
             <div class=\"col-md-12 col-xl-3\">
                 <img src=\"";
-        // line 32
+        // line 33
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("logo/logoBezTla.png"), "html", null, true);
         echo "\" alt=\"Logo\" class=\"d-block p-0 mx-auto\" style=\"height: 170px;\">
             </div>
             <div class=\"col-sm-12 col-md-4 col-xl-3 pt-3\">
                 <div class=\"pt-4 headerButton mx-auto\">
                     <a href=\"";
-        // line 36
+        // line 37
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("main_page");
         echo "\" class=\"d-block text-center p-4\">
                         Strona główna
@@ -92,7 +93,7 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
             <div class=\"col-sm-12 col-md-4 col-xl-3 pt-3\">
                 <div class=\"pt-4 headerButton\">
                     <a href=\"";
-        // line 43
+        // line 44
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("realizations");
         echo "\" class=\"d-block text-center p-4 mx-auto\">
                         Realizacje
@@ -102,7 +103,7 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
             <div class=\"col-sm-12 col-md-4 col-xl-3 pt-3 pb-3\">
                 <div class=\"pt-4 headerButton mx-auto\">
                     <a href=\"";
-        // line 50
+        // line 51
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contact");
         echo "\" class=\"d-block text-center p-4\">
                         Kontakt
@@ -141,19 +142,19 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
             <div class=\"row pt-2 m-0\">
                 <li class=\"pt-3 col-md-3 col-sm-6\">
                     <a href=\"";
-        // line 86
+        // line 87
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("main_page");
         echo "\">Strona główna</a>
                 </li>
                 <li class=\"pt-3 col-md-3 col-sm-6\">
                     <a href=\"";
-        // line 89
+        // line 90
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("realizations");
         echo "\">Realizacje</a>
                 </li>
                 <li class=\"pt-3 col-md-3 col-sm-6\">
                     <a href=\"";
-        // line 92
+        // line 93
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contact");
         echo "\">Kontakt</a>
                 </li>
@@ -224,7 +225,7 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
 
     public function getDebugInfo()
     {
-        return array (  157 => 92,  151 => 89,  145 => 86,  106 => 50,  96 => 43,  86 => 36,  79 => 32,  54 => 10,  48 => 7,  40 => 1,);
+        return array (  158 => 93,  152 => 90,  146 => 87,  107 => 51,  97 => 44,  87 => 37,  80 => 33,  55 => 11,  49 => 8,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -234,6 +235,7 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
 
 <head>
     <title>Drewno Artek</title>
+    <meta name=\"description\" content=\"Tworzymy najlepszej jakości wyroby drewniane w okolicy! Zapraszamy do kontaku z nami. Adres: Nowe Krąplewice 19 86-130. Kontakt: (+48)791-271-060.\">
 
     <link rel=\"stylesheet\" href=\"{{ asset('build/app.css') }}\">
     <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">
@@ -254,7 +256,7 @@ class __TwigTemplate_43d31f3c35541a5890397e38473885b2992ccb24a7d0915dbca45c92b51
             }
         }
     </script>
-    
+
 </head>
 <body>
     <nav class=\"row m-0\">

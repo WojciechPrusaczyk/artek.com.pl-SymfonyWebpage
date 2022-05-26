@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23316531-e5e5-4cdf-a819-acab29ca6b6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.local.php" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ArtekWebpage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ArtekWebpage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/NapiszDoNas.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/NapiszDoNas.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Realizacje.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Realizacje.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/StronaGlowna.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/StronaGlowna.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/44/449fcc886880e024c1cec83a57f1a7226b21d2c8d360adb910d242c719b8903a.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/44/449fcc886880e024c1cec83a57f1a7226b21d2c8d360adb910d242c719b8903a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/85/8593f8b6be0a3bbc9166b427e4b10336a56f641da76be5a6d3efe2a2ec2cbb97.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/85/8593f8b6be0a3bbc9166b427e4b10336a56f641da76be5a6d3efe2a2ec2cbb97.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/prod/App_KernelProdContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +87,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/asset" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/requirements-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="28kBNyDvBETJsGxhDcarhKDcLXX" />
@@ -83,7 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -110,6 +127,9 @@
       <workItem from="1651750669687" duration="2980000" />
       <workItem from="1651755279366" duration="6047000" />
       <workItem from="1651857351673" duration="318000" />
+      <workItem from="1653484484849" duration="35000" />
+      <workItem from="1653567715153" duration="48000" />
+      <workItem from="1653568275449" duration="1952000" />
     </task>
     <servers />
   </component>
