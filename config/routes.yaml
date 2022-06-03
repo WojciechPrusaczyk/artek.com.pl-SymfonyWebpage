@@ -14,3 +14,6 @@ realizations:
 contact:
     path: /kontakt
     controller: 'App\Controller\ContactController::contact'
+sent:
+    path: /sent
+    controller: 'App\Controller\SentController::index'

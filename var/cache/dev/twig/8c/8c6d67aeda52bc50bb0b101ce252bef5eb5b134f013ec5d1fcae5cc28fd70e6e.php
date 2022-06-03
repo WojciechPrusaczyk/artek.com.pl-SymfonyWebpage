@@ -76,6 +76,10 @@ class __TwigTemplate_bfe01141479fbf6384aca5676b00a09b511c852061ef856106d27ab1cd9
                 </div>
             </form>
         </main>
+    ";
+        // line 24
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["mailerForm"]) || array_key_exists("mailerForm", $context) ? $context["mailerForm"] : (function () { throw new RuntimeError('Variable "mailerForm" does not exist.', 24, $this->source); })()), 'form');
+        echo "
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -94,7 +98,7 @@ class __TwigTemplate_bfe01141479fbf6384aca5676b00a09b511c852061ef856106d27ab1cd9
 
     public function getDebugInfo()
     {
-        return array (  59 => 4,  52 => 3,  35 => 1,);
+        return array (  81 => 24,  59 => 4,  52 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -122,6 +126,7 @@ class __TwigTemplate_bfe01141479fbf6384aca5676b00a09b511c852061ef856106d27ab1cd9
                 </div>
             </form>
         </main>
+    {{ form(mailerForm) }}
 {% endblock %}", "NapiszDoNas.html.twig", "C:\\Users\\Wojtek\\Desktop\\Coding\\ArtekWebpage\\templates\\NapiszDoNas.html.twig");
     }
 }

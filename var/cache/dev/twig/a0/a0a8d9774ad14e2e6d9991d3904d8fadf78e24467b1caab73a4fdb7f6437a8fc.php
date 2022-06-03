@@ -57,7 +57,7 @@ class __TwigTemplate_ca49e450c1610a6a9921475b79b817010552ac963890722f4ba8c9f0b6e
 
         // line 4
         echo "        <!--Realizacje-->
-
+    <main>
         <div class=\"row w-100 d-flexbox text-center m-0 pb-5 imageRow\">
             <div class=\"col-12 p-5\">
                 <h2>
@@ -112,6 +112,7 @@ class __TwigTemplate_ca49e450c1610a6a9921475b79b817010552ac963890722f4ba8c9f0b6e
                 <h4></h4>
             </div>
         </div>
+    </main>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -139,7 +140,7 @@ class __TwigTemplate_ca49e450c1610a6a9921475b79b817010552ac963890722f4ba8c9f0b6e
 
 {% block main %}
         <!--Realizacje-->
-
+    <main>
         <div class=\"row w-100 d-flexbox text-center m-0 pb-5 imageRow\">
             <div class=\"col-12 p-5\">
                 <h2>
@@ -185,6 +186,7 @@ class __TwigTemplate_ca49e450c1610a6a9921475b79b817010552ac963890722f4ba8c9f0b6e
                 <h4></h4>
             </div>
         </div>
+    </main>
 {% endblock %}", "Realizacje.html.twig", "C:\\Users\\Wojtek\\Desktop\\Coding\\ArtekWebpage\\templates\\Realizacje.html.twig");
     }
 }

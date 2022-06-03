@@ -58,6 +58,10 @@ return [[
 '[C]App%5CController%5CContactController' => 1,
 'App%5CController%5CContactController%23contact' => 0,
 '[C]App%5CController%5CContactController%23contact' => 1,
+'App%5CController%5CExampleController' => 0,
+'[C]App%5CController%5CExampleController' => 1,
+'App%5CController%5CExampleController%23index' => 0,
+'[C]App%5CController%5CExampleController%23index' => 1,
 'App%5CController%5CMainPageController' => 0,
 '[C]App%5CController%5CMainPageController' => 1,
 'App%5CController%5CMainPageController%23index' => 0,
@@ -66,6 +70,10 @@ return [[
 '[C]App%5CController%5CRealizationsController' => 1,
 'App%5CController%5CRealizationsController%23realizations' => 0,
 '[C]App%5CController%5CRealizationsController%23realizations' => 1,
+'App%5CController%5CSentController' => 0,
+'[C]App%5CController%5CSentController' => 1,
+'App%5CController%5CSentController%23index' => 0,
+'[C]App%5CController%5CSentController%23index' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController' => 0,
 '[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__construct' => 0,
@@ -96,6 +104,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1654032555,
+1 => 1654242144,
 
 ]];

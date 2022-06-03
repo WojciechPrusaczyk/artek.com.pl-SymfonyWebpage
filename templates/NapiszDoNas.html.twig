@@ -1,24 +1,12 @@
 {% extends 'base.html.twig' %}
-
+{% form_theme mailerForm 'bootstrap_4_layout.html.twig' %}
 {% block main %}
         <main>
             <p class="my-5 w-75 mx-auto">
                 <h1>Napisz do nas!</h1><br>
                 <h3>Na wszystkie wiadomości odpowiadamy najszybciej jak to możliwe.</h3><br>
             </p>
-            <form action="" method="get" class="my-5 w-75 mx-auto">
-                <div class="col-sm-12 col-md-6 col-xl-5 mx-auto">
-                    <input type="text" value="Imie i nazwisko" name="ProdName" class="form-control mx-auto m-3 mw-100" onclick="onFocusText(this, 'Imie i nazwisko')" onfocusout="onLostFocus(this, 'Imie i nazwisko')" style="color: grey">
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-5 mx-auto">
-                    <input type="text" value="Adres e-mail, lub telefon" name="contact" class="form-control mx-auto my-3 mw-100" onclick="onFocusText(this, 'Adres e-mail, lub telefon')" onfocusout="onLostFocus(this, 'Adres e-mail, lub telefon')" style="color: grey">
-                </div>
-                <div class="col-sm-12 col-md-10 mx-auto">
-                    <textarea name="" id="" value="Wiadomość..." name="message" class="form-control mx-auto my-3 w-100" onclick="onFocusText(this, 'Wiadomość...')" onfocusout="onLostFocus(this, 'Wiadomość...')" style="color: grey; height: 35vh;"></textarea>
-                </div>
-                <div class="col-sm-8 col-md-6 col-xl-3 mx-auto">
-                    <input type="submit" value="Wyślij" class="btn my-3 mx-auto p-3 w-75">
-                </div>
-            </form>
+            {{ form(mailerForm) }}
         </main>
+
 {% endblock %}
