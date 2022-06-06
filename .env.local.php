@@ -4,4 +4,6 @@
 
 return array (
   'APP_ENV' => 'dev',
+  'APP_SECRET' => '13a15513cec0fc8dede76f98dc13fad3',
+  'MAILER_DSN' => 'smtp://djartek1988:foujhFKa72.@smtp.artek.com.pl:465',
 );

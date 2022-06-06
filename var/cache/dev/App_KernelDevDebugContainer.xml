@@ -118,13 +118,6 @@
         <argument type="service" id=".service_locator.l1ae.Qz.App\Controller\ContactController"/>
       </call>
     </service>
-    <service id="App\Controller\ExampleController" class="App\Controller\ExampleController" public="true" autowire="true" autoconfigure="true">
-      <tag name="controller.service_arguments"/>
-      <tag name="container.service_subscriber"/>
-      <call method="setContainer">
-        <argument type="service" id=".service_locator.l1ae.Qz.App\Controller\ExampleController"/>
-      </call>
-    </service>
     <service id="App\Controller\MainPageController" class="App\Controller\MainPageController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
@@ -178,7 +171,7 @@
     </service>
     <service id="argument_resolver.service" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver">
       <tag name="controller.argument_value_resolver" priority="-50"/>
-      <argument type="service" id=".service_locator.zxMugcL"/>
+      <argument type="service" id=".service_locator.GlObN_N"/>
     </service>
     <service id="argument_resolver.default" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver">
       <tag name="controller.argument_value_resolver" priority="-100"/>
@@ -1367,6 +1360,12 @@
       <argument type="service" id="http_client" on-invalid="ignore"/>
       <argument type="service" id="logger" on-invalid="ignore"/>
     </service>
+    <service id="mailer.transport_factory.gmail" class="Symfony\Component\Mailer\Bridge\Google\Transport\GmailTransportFactory">
+      <tag name="mailer.transport_factory"/>
+      <argument type="service" id="event_dispatcher"/>
+      <argument>null</argument>
+      <argument type="service" id="logger" on-invalid="ignore"/>
+    </service>
     <service id="mailer.transport_factory.null" class="Symfony\Component\Mailer\Transport\NullTransportFactory">
       <tag name="mailer.transport_factory"/>
       <argument type="service" id="event_dispatcher"/>
@@ -2463,9 +2462,6 @@
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\ContactController" class="App\Controller\ContactController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\ContactController" class="App\Controller\ContactController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\ContactController" class="App\Controller\ContactController" autowire="true" autoconfigure="true" abstract="true"/>
-    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\ExampleController" class="App\Controller\ExampleController" autowire="true" abstract="true"/>
-    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\ExampleController" class="App\Controller\ExampleController" autowire="true" abstract="true"/>
-    <service id=".abstract.instanceof.App\Controller\ExampleController" class="App\Controller\ExampleController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\MainPageController" class="App\Controller\MainPageController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\MainPageController" class="App\Controller\MainPageController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\MainPageController" class="App\Controller\MainPageController" autowire="true" autoconfigure="true" abstract="true"/>
@@ -2805,15 +2801,23 @@
         <argument key="loader" type="service_closure" id=".errored..service_locator.KfbR3DY.Symfony\Component\Config\Loader\LoaderInterface"/>
       </argument>
     </service>
-    <service id=".service_locator.zxMugcL" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.CpaXrFh" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
+        <argument key="mailer" type="service_closure" id="mailer.mailer"/>
+      </argument>
+    </service>
+    <service id=".service_locator.GlObN_N" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="App\Controller\ContactController::contact" type="service_closure" id=".service_locator.CpaXrFh"/>
         <argument key="App\Kernel::loadRoutes" type="service_closure" id=".service_locator.KfbR3DY"/>
         <argument key="App\Kernel::registerContainerConfiguration" type="service_closure" id=".service_locator.KfbR3DY"/>
         <argument key="App\Kernel::terminate" type="service_closure" id=".service_locator.KfwZsne"/>
         <argument key="kernel::loadRoutes" type="service_closure" id=".service_locator.KfbR3DY"/>
         <argument key="kernel::registerContainerConfiguration" type="service_closure" id=".service_locator.KfbR3DY"/>
         <argument key="kernel::terminate" type="service_closure" id=".service_locator.KfwZsne"/>
+        <argument key="App\Controller\ContactController:contact" type="service_closure" id=".service_locator.CpaXrFh"/>
         <argument key="kernel:loadRoutes" type="service_closure" id=".service_locator.KfbR3DY"/>
         <argument key="kernel:registerContainerConfiguration" type="service_closure" id=".service_locator.KfbR3DY"/>
         <argument key="kernel:terminate" type="service_closure" id=".service_locator.KfwZsne"/>
@@ -2860,12 +2864,6 @@
     <service id=".service_locator.l1ae.Qz.App\Controller\ContactController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\ContactController"/>
       <argument>App\Controller\ContactController</argument>
-      <argument type="service" id="service_container"/>
-      <factory service=".service_locator.l1ae.Qz" method="withContext"/>
-    </service>
-    <service id=".service_locator.l1ae.Qz.App\Controller\ExampleController" class="Symfony\Component\DependencyInjection\ServiceLocator">
-      <tag name="container.service_locator_context" id="App\Controller\ExampleController"/>
-      <argument>App\Controller\ExampleController</argument>
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.l1ae.Qz" method="withContext"/>
     </service>
@@ -3506,18 +3504,19 @@
     <service id="Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface" alias="webpack_encore.entrypoint_lookup[_default]"/>
     <service id="container.env_var_processors_locator" alias=".service_locator.gSv9zYw" public="true"/>
     <service id="twig.loader.filesystem" alias="twig.loader.native_filesystem"/>
-    <service id="argument_resolver.controller_locator" alias=".service_locator.zxMugcL"/>
+    <service id="argument_resolver.controller_locator" alias=".service_locator.GlObN_N"/>
     <service id="twig.loader" alias="twig.loader.native_filesystem"/>
     <service id="Psr\Log\LoggerInterface" alias="logger"/>
     <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~dpAXDzO"/>
     <service id=".service_locator.0GV1BZZ" alias=".service_locator.gSv9zYw"/>
-    <service id=".service_locator.YxNo8ZP" alias=".service_locator.zxMugcL"/>
+    <service id=".service_locator.zHki44l" alias=".service_locator.GlObN_N"/>
     <service id=".service_locator.00bC4GB" alias=".service_locator.znUisT1"/>
     <service id=".service_locator.d1A0XdQ" alias=".service_locator.c9ii5tw"/>
     <service id=".service_locator.jkb6XQV" alias=".service_locator.l1ae.Qz"/>
     <service id="twig.error_renderer.html.inner" alias="error_handler.error_renderer.html"/>
     <service id=".service_locator._5g_Wvc" alias=".service_locator.KfwZsne"/>
     <service id=".service_locator.JBAFp66" alias=".service_locator.KfbR3DY"/>
+    <service id=".service_locator.yciRRzv" alias=".service_locator.CpaXrFh"/>
     <service id=".service_locator.K6YyT2J" alias=".service_locator.l1ae.Qz"/>
     <service id=".service_locator.u6DWx23" alias=".service_locator.cXsfP3P"/>
   </services>

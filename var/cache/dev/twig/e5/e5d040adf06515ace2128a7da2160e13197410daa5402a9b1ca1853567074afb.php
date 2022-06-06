@@ -74,6 +74,19 @@ class __TwigTemplate_85ad37614c776748fbb785f6ae2de0d6cfc7307f613c958902ca34d78ac
         <h1 class=\"my-5 mx-auto\">
             Wiadomość została wysłana ✅
         </h1>
+        <h2>Od: ";
+        // line 10
+        echo twig_escape_filter($this->env, (isset($context["name"]) || array_key_exists("name", $context) ? $context["name"] : (function () { throw new RuntimeError('Variable "name" does not exist.', 10, $this->source); })()), "html", null, true);
+        echo "</h2>
+        <h2>Dane kontaktowe: ";
+        // line 11
+        echo twig_escape_filter($this->env, (isset($context["contact"]) || array_key_exists("contact", $context) ? $context["contact"] : (function () { throw new RuntimeError('Variable "contact" does not exist.', 11, $this->source); })()), "html", null, true);
+        echo "</h2>
+        <h2>Treść: ";
+        // line 12
+        echo twig_escape_filter($this->env, (isset($context["body"]) || array_key_exists("body", $context) ? $context["body"] : (function () { throw new RuntimeError('Variable "body" does not exist.', 12, $this->source); })()), "html", null, true);
+        echo "</h2>
+        <h3></h3>
     </main>
 
 ";
@@ -94,7 +107,7 @@ class __TwigTemplate_85ad37614c776748fbb785f6ae2de0d6cfc7307f613c958902ca34d78ac
 
     public function getDebugInfo()
     {
-        return array (  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+        return array (  87 => 12,  83 => 11,  79 => 10,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -108,6 +121,10 @@ class __TwigTemplate_85ad37614c776748fbb785f6ae2de0d6cfc7307f613c958902ca34d78ac
         <h1 class=\"my-5 mx-auto\">
             Wiadomość została wysłana ✅
         </h1>
+        <h2>Od: {{ name }}</h2>
+        <h2>Dane kontaktowe: {{ contact }}</h2>
+        <h2>Treść: {{ body }}</h2>
+        <h3></h3>
     </main>
 
 {% endblock %}

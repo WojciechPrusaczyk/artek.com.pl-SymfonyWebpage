@@ -58,10 +58,6 @@ return [[
 '[C]App%5CController%5CContactController' => 1,
 'App%5CController%5CContactController%23contact' => 0,
 '[C]App%5CController%5CContactController%23contact' => 1,
-'App%5CController%5CExampleController' => 0,
-'[C]App%5CController%5CExampleController' => 1,
-'App%5CController%5CExampleController%23index' => 0,
-'[C]App%5CController%5CExampleController%23index' => 1,
 'App%5CController%5CMainPageController' => 0,
 '[C]App%5CController%5CMainPageController' => 1,
 'App%5CController%5CMainPageController%23index' => 0,
@@ -104,6 +100,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1654242144,
+1 => 1654251789,
 
 ]];

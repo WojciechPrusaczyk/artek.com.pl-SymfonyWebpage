@@ -4,7 +4,6 @@
 
 return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], [], []],
-    'app_example' => [[], ['_controller' => 'App\\Controller\\ExampleController::index'], [], [['text', '/example']], [], [], []],
     'main_page' => [[], ['_controller' => 'App\\Controller\\MainPageController::index'], [], [['text', '/']], [], [], []],
     'realizations' => [[], ['_controller' => 'App\\Controller\\RealizationsController::realizations'], [], [['text', '/realizacje']], [], [], []],
     'contact' => [[], ['_controller' => 'App\\Controller\\ContactController::contact'], [], [['text', '/kontakt']], [], [], []],
